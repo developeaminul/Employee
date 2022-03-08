@@ -1,0 +1,102 @@
+.timeline {
+   padding: 70px 0px;
+
+   .col-md-3 {
+      background: #fff;
+      border-radius: 6px;
+      display: inline-block;
+      box-shadow: 2px 2px 169px -56px rgba(0, 0, 0, 0.75);
+      -webkit-box-shadow: 2px 2px 169px -56px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 2px 2px 169px -56px rgba(0, 0, 0, 0.75);
+      padding: 10px 0px;
+   }
+
+   .profile {
+      .profile-name {
+         padding: 15px;
+
+         h4 {
+            font-family: $primary__font;
+            font-size: 20px;
+            font-weight: 500;
+            color: $secondary__color;
+         }
+
+         span {
+            font-weight: 500;
+            font-family: $primary__font;
+            font-size: 15px;
+            color: $secondary__color;
+         }
+      }
+
+      .profile-image {
+         margin-top: -18px;
+         -webkit-clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%);
+         clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%);
+      }
+   }
+
+   .nav-tabs {
+      .nav-link {
+         margin-bottom: 0px;
+         background: 0 0;
+         border: 0px solid transparent;
+         border-top-left-radius: 0rem;
+         border-top-right-radius: 0rem;
+         border-radius: 5px;
+         text-transform: uppercase;
+         font-family: $primary__font;
+         font-weight: 600;
+         font-size: 18px;
+      }
+
+      .nav-link.active {
+         color: $secondary__color;
+         background-color: $primary__color;
+         border-color: none;
+         color: $default__color;
+         transition: all .3s ease-in;
+      }
+   }
+
+   #myTabContent {
+      background-color: $default__color;
+      box-shadow: 2px 2px 169px -56px rgba(0, 0, 0, 0.75);
+      border-radius: 10px;
+     
+      .profile-model {
+         padding: 15px 30px;
+         height: 70px;
+         align-items: center;
+         width: 100%;
+         background:#e1eefb;
+         border-top-left-radius: 10px;
+         border-top-right-radius: 10px;
+         .btn-primary{
+            float: right;
+            font-size: 16px;
+            font-family: $primary__font;
+            font-weight: 500;
+            outline: unset;
+            box-shadow: none;
+            &:hover{
+               box-shadow: 1px 1px 20px -1px rgba(73,173,206,0.81);
+               -webkit-box-shadow: 1px 1px 20px -1px rgba(73,173,206,0.81);
+               -moz-box-shadow: 1px 1px 20px -1px rgba(73,173,206,0.81);
+            }
+         }
+      }
+
+      .profile-tab-text {
+         padding: 30px;
+         p{
+            font-size: 16px;
+            font-family: $primary__font;
+            font-weight: 500;
+         }
+      }
+   }
+
+
+}
